@@ -1,3 +1,4 @@
+// navbar
 const nav = document.querySelector(".navbar-nav");
 
 document.querySelector(".navbar-toggler").addEventListener("click", () => {
@@ -18,6 +19,16 @@ document.querySelector(".show-btn").addEventListener("click", () => {
     }
 });
 
+
 document.querySelector(".chatbot .next").addEventListener("click", () => {
     wrapper.classList.remove("show-chatbot");
 });
+
+// scroll olunursa chatbot wrapperi sil
+window.addEventListener("scroll", () => {
+    const scrolled = Math.round(window.scrollY);
+
+    if (scrolled) {
+        wrapper.classList.remove("show-chatbot");
+    }
+})
