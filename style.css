@@ -349,8 +349,25 @@ header {
 }
 
 .title {
-    font-size: 32px;
     color: #04004D;
+}
+
+@media (min-width: 1200px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 769px) {
+    .title {
+        font-size: 16px;
+    }
 }
 
 .sub-title {
@@ -740,6 +757,12 @@ select[name*="filtr"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 1400px) {
+    .courses .card-footer .btn {
+        margin-left: 20px;
+    }
 }
 
 .courses .card-top {
