@@ -980,7 +980,7 @@
                     }
                 }
                 
-                @media (max-width:581px) {
+                @media (min-width: 320px) and (max-width:581px) {
                     .navigation-img {
                         width: 300px;
                         height: 200px;
@@ -1024,6 +1024,31 @@
                     }
                     .place-10 {
                         transform: translate(-174px, 77px);
+                    }
+                    .place-11 {
+                        transform: translate(-255px, 143px);
+                    }
+                    .place-12 {
+                        transform: translate(-188px, 125px);
+                    }
+                    .place-13 {
+                        transform: translate(-147px, 101px);
+                    }
+                    .place-14 {
+                        transform: translate(-120px, 116px);
+                    }
+                    .place-15 {
+                        transform: translate(-122px, 167px);
+                    }
+                }
+                
+                @media (max-width: 321px) {
+                    .navigation-img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .map-places {
+                        display: none;
                     }
                 }
                 /* footer */
