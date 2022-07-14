@@ -918,12 +918,112 @@
                     transform: translate(-820px, 480px);
                 }
                 
-                @media (max-width: 974px) {
+                @media (min-width: 580px) and (max-width: 974px) {
                     .navigation-img {
-                        /* 400px */
                         width: 574px;
-                        /* 300px */
                         height: 360px;
+                    }
+                    .map-places {
+                        width: 19.15px;
+                        height: 19.16px;
+                    }
+                    .map-places span {
+                        width: 7.78px;
+                        height: 7.78px;
+                        top: 3.5px;
+                        left: 3.5px;
+                    }
+                    .place-1 {
+                        transform: translate(-400px, 20px);
+                    }
+                    .place-2 {
+                        transform: translate(-230px, 40px);
+                    }
+                    .place-3 {
+                        transform: translate(-220px, 75px);
+                    }
+                    .place-4 {
+                        transform: translate(-86px, 162px);
+                    }
+                    .place-5 {
+                        transform: translate(-156px, 151px);
+                    }
+                    .place-6 {
+                        transform: translate(-241px, 127px);
+                    }
+                    .place-7 {
+                        transform: translate(-353px, 80px);
+                    }
+                    .place-8 {
+                        transform: translate(-446px, 109px);
+                    }
+                    .place-9 {
+                        transform: translate(-411px, 142px);
+                    }
+                    .place-10 {
+                        transform: translate(-479px, 265px);
+                    }
+                    .place-11 {
+                        transform: translate(-329px, 146px);
+                    }
+                    .place-12 {
+                        transform: translate(-288px, 196px);
+                    }
+                    .place-13 {
+                        transform: translate(-231px, 302px);
+                    }
+                    .place-14 {
+                        transform: translate(-361px, 236px);
+                    }
+                    .place-15 {
+                        transform: translate(-235px, 211px);
+                    }
+                }
+                
+                @media (max-width:581px) {
+                    .navigation-img {
+                        width: 300px;
+                        height: 200px;
+                    }
+                    .map-places {
+                        width: 14.15px;
+                        height: 14.16px;
+                    }
+                    .map-places span {
+                        width: 5.78px;
+                        height: 5.78px;
+                        top: 2px;
+                        left: 2px;
+                    }
+                    .place-1 {
+                        transform: translate(-208px, 6px);
+                    }
+                    .place-2 {
+                        transform: translate(-119px, 13px);
+                    }
+                    .place-3 {
+                        transform: translate(-114px, 38px);
+                    }
+                    .place-4 {
+                        transform: translate(-52px, 88px);
+                    }
+                    .place-5 {
+                        transform: translate(-86px, 86px);
+                    }
+                    .place-6 {
+                        transform: translate(-181px, 41px);
+                    }
+                    .place-7 {
+                        transform: translate(-124px, 65px);
+                    }
+                    .place-8 {
+                        transform: translate(-236px, 59px);
+                    }
+                    .place-9 {
+                        transform: translate(-218px, 73px);
+                    }
+                    .place-10 {
+                        transform: translate(-174px, 77px);
                     }
                 }
                 /* footer */
